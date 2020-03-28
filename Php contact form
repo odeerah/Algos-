@@ -1,0 +1,29 @@
+!DOCTYPE HTML
+<HTML lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content=width=device-width, initial-scale=1.0/>
+<title>Start NG</title>
+<head>
+<body>
+<h3>contact Me</h3>
+<form action=processform.php" method="post"/>
+<p>
+<label for=first_name>First Name</label><be/>
+<input type="text" name="first_name" placeholder="Enter your name"/>
+</p>
+<p>
+<label for=last_name>Last Name</label></br>
+<input type="text" name="last_name" placeholder="Enter your last name"/>
+</p>
+<p>
+<label for="email">Email</label><br/>
+<input type="email" name="email" placeholder="Enter your e-mail"/>
+</p>
+<p>
+<label for="message">Your Message</label></br>
+<textarea name="message"></text area>
+</p>
+<button type="submit">Send Message</button>
+</body>
+</html>
